@@ -108,7 +108,6 @@ def main():
         winner = verify_winner(grid)
         if winner == True:
             print()
-            break
         if times == 9:
             print('\033[31mNo one won!\033[0m')
             print()
